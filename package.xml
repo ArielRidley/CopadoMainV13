@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Test_Folder</members>
-        <members>Test_Folder/Test_Report</members>
+        <members>Test2_Folder</members>
+        <members>Test2_Folder/Test2_Report</members>
         <name>Report</name>
     </types>
     <version>46.0</version>
