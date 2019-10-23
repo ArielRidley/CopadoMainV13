@@ -5,7 +5,7 @@
         <name>ApexClass</name>
     </types>
     <types>
-        <members>AppleWatch</members>
+        <members>OpportunityTrigger</members>
         <name>ApexTrigger</name>
     </types>
     <version>46.0</version>
