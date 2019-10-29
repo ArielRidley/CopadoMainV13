@@ -416,6 +416,35 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Test__c</fullName>
+        <externalId>false</externalId>
+        <label>Test</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Test1</fullName>
+                    <default>false</default>
+                    <label>Test1</label>
+                </value>
+                <value>
+                    <fullName>Test2</fullName>
+                    <default>false</default>
+                    <label>Test2</label>
+                </value>
+                <value>
+                    <fullName>Test3</fullName>
+                    <default>false</default>
+                    <label>Test3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>TickerSymbol</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -509,6 +538,21 @@
         <active>true</active>
         <description>Test</description>
         <label>Account Test Record Type</label>
+        <picklistValues>
+            <picklist>Test__c</picklist>
+            <values>
+                <fullName>Test1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>AccountSource</picklist>
             <values>
