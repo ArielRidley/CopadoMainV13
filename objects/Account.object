@@ -365,15 +365,16 @@
                     <label>Three</label>
                 </value>
                 <value>
-                    <fullName>Four</fullName>
-                    <default>false</default>
-                    <label>Four</label>
-                </value>
-                <value>
                     <fullName>Five</fullName>
                     <default>false</default>
                     <isActive>false</isActive>
                     <label>Five</label>
+                </value>
+                <value>
+                    <fullName>Four</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Four</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -880,10 +881,6 @@
         <label>Testing Record Type</label>
         <picklistValues>
             <picklist>Numbers__c</picklist>
-            <values>
-                <fullName>Four</fullName>
-                <default>false</default>
-            </values>
             <values>
                 <fullName>One</fullName>
                 <default>false</default>
