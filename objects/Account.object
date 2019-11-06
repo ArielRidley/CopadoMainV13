@@ -633,16 +633,7 @@
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Winter</controllingFieldValue>
-                <valueName>Freezing</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Winter</controllingFieldValue>
                 <valueName>Snow</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Spring</controllingFieldValue>
-                <controllingFieldValue>Fall</controllingFieldValue>
-                <valueName>Cool</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Spring</controllingFieldValue>
@@ -660,6 +651,10 @@
                 <controllingFieldValue>Summer</controllingFieldValue>
                 <controllingFieldValue>Fall</controllingFieldValue>
                 <valueName>Sun</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Fall</controllingFieldValue>
+                <valueName>Cool</valueName>
             </valueSettings>
         </valueSet>
     </fields>
