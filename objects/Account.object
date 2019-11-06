@@ -386,6 +386,7 @@
                 <value>
                     <fullName>Five</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Five</label>
                 </value>
             </valueSetDefinition>
@@ -578,10 +579,6 @@
         <label>Testing Record Type</label>
         <picklistValues>
             <picklist>Numbers__c</picklist>
-            <values>
-                <fullName>Five</fullName>
-                <default>false</default>
-            </values>
             <values>
                 <fullName>Four</fullName>
                 <default>false</default>
