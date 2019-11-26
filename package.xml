@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Frequency</members>
-        <name>GlobalValueSet</name>
+        <members>Order_Path_Test</members>
+        <name>PathAssistant</name>
     </types>
     <version>46.0</version>
 </Package>
