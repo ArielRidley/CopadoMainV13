@@ -257,6 +257,26 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Opportunity_Clients__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity Clients</label>
+        <length>75</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Deceased_Owner__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity Deceased Owner</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>OrderNumber__c</fullName>
         <externalId>false</externalId>
         <label>Order Number</label>
