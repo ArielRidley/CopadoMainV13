@@ -406,6 +406,46 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Numbers__c</fullName>
+        <externalId>false</externalId>
+        <label>Numbers</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>One</fullName>
+                    <default>false</default>
+                    <label>One</label>
+                </value>
+                <value>
+                    <fullName>Two</fullName>
+                    <default>false</default>
+                    <label>Two</label>
+                </value>
+                <value>
+                    <fullName>Three</fullName>
+                    <default>false</default>
+                    <label>Three</label>
+                </value>
+                <value>
+                    <fullName>Four</fullName>
+                    <default>false</default>
+                    <label>Four</label>
+                </value>
+                <value>
+                    <fullName>Five</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Five</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>OwnerId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <type>Lookup</type>
@@ -481,6 +521,40 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Season__c</fullName>
+        <externalId>false</externalId>
+        <label>Season</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Winter</fullName>
+                    <default>false</default>
+                    <label>Winter</label>
+                </value>
+                <value>
+                    <fullName>Spring</fullName>
+                    <default>false</default>
+                    <label>Spring</label>
+                </value>
+                <value>
+                    <fullName>Summer</fullName>
+                    <default>false</default>
+                    <label>Summer</label>
+                </value>
+                <value>
+                    <fullName>Fall</fullName>
+                    <default>false</default>
+                    <label>Fall</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>ShippingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -495,35 +569,6 @@
     <fields>
         <fullName>Site</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>Test__c</fullName>
-        <externalId>false</externalId>
-        <label>Test</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Test1</fullName>
-                    <default>false</default>
-                    <label>Test1</label>
-                </value>
-                <value>
-                    <fullName>Test2</fullName>
-                    <default>false</default>
-                    <label>Test2</label>
-                </value>
-                <value>
-                    <fullName>Test3</fullName>
-                    <default>false</default>
-                    <label>Test3</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>TickerSymbol</fullName>
@@ -564,6 +609,90 @@
                     <label>Yes</label>
                 </value>
             </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Weather__c</fullName>
+        <externalId>false</externalId>
+        <label>Weather</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Season__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hot</fullName>
+                    <default>false</default>
+                    <label>Hot</label>
+                </value>
+                <value>
+                    <fullName>Warm</fullName>
+                    <default>false</default>
+                    <label>Warm</label>
+                </value>
+                <value>
+                    <fullName>Cool</fullName>
+                    <default>false</default>
+                    <label>Cool</label>
+                </value>
+                <value>
+                    <fullName>Cold</fullName>
+                    <default>false</default>
+                    <label>Cold</label>
+                </value>
+                <value>
+                    <fullName>Freezing</fullName>
+                    <default>false</default>
+                    <label>Freezing</label>
+                </value>
+                <value>
+                    <fullName>Rain</fullName>
+                    <default>false</default>
+                    <label>Rain</label>
+                </value>
+                <value>
+                    <fullName>Snow</fullName>
+                    <default>false</default>
+                    <label>Snow</label>
+                </value>
+                <value>
+                    <fullName>Sun</fullName>
+                    <default>false</default>
+                    <label>Sun</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Winter</controllingFieldValue>
+                <valueName>Cold</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Winter</controllingFieldValue>
+                <valueName>Snow</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Spring</controllingFieldValue>
+                <valueName>Rain</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Summer</controllingFieldValue>
+                <valueName>Hot</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Summer</controllingFieldValue>
+                <valueName>Warm</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Summer</controllingFieldValue>
+                <controllingFieldValue>Fall</controllingFieldValue>
+                <valueName>Sun</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Fall</controllingFieldValue>
+                <valueName>Cool</valueName>
+            </valueSettings>
         </valueSet>
     </fields>
     <fields>
@@ -615,22 +744,26 @@
         <label>Platinum and Gold SLA Customers</label>
     </listViews>
     <recordTypes>
-        <fullName>Account_Test_Record_Type</fullName>
+        <fullName>Testing_Record_Type</fullName>
         <active>true</active>
         <description>Test</description>
-        <label>Account Test Record Type</label>
+        <label>Testing Record Type</label>
         <picklistValues>
-            <picklist>Test__c</picklist>
+            <picklist>Numbers__c</picklist>
             <values>
-                <fullName>Test1</fullName>
+                <fullName>Four</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Test2</fullName>
+                <fullName>One</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Test3</fullName>
+                <fullName>Three</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Two</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -891,5 +1024,17 @@
         <showsLocation>true</showsLocation>
         <showsStatus>true</showsStatus>
         <url>http://www.genwatt.com/genwatt/billing.htm?actname={!Account_Name}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>echosign_dev1__Send_to_EchoSign</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Send for Signature</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/apex/echosign_dev1__AgreementTemplateProcess?masterId={!Account.Id}</url>
     </webLinks>
 </CustomObject>
