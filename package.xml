@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.Account_ID__c</members>
-        <members>Account.Account_Individual__c</members>
-        <members>Account.Account_Name__c</members>
-        <members>Account.Account_Number__c</members>
-        <members>Account.Account_Tax_ID__c</members>
-        <members>Opportunity.Opportunity_Clients__c</members>
-        <members>Opportunity.Opportunity_Deceased_Owner__c</members>
-        <name>CustomField</name>
+        <members>Shapes__c</members>
+        <name>CustomObject</name>
     </types>
     <version>46.0</version>
 </Package>
