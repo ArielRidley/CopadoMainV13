@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Admin</members>
-        <name>Profile</name>
+        <members>Test_Community_Dev1</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
+        <members>Test Community Dev1</members>
+        <name>Network</name>
+    </types>
+    <types>
+        <members>cbNew_Topic</members>
+        <members>cbTest_Community_Dev1</members>
+        <members>cbTest_Topic</members>
+        <members>cbTesting_Topic</members>
+        <name>NetworkBranding</name>
+    </types>
+    <types>
+        <members>Test_Community_Dev11</members>
+        <name>SiteDotCom</name>
     </types>
     <version>46.0</version>
 </Package>
