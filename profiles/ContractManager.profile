@@ -6765,7 +6765,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Account-Account Layout</layout>
+        <layout>Account-Account %28Marketing%29 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Asset-Asset Layout</layout>
