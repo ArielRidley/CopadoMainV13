@@ -120,6 +120,18 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Audit_Assets__c</fullName>
+        <externalId>false</externalId>
+        <label>Audit Assets</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Frequency</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>ContactId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -235,6 +247,58 @@
         <filterScope>Everything</filterScope>
         <label>All Assets</label>
     </listViews>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Audit_Assets_RT</fullName>
+        <active>true</active>
+        <label>Audit Assets RT</label>
+        <picklistValues>
+            <picklist>Audit_Assets__c</picklist>
+            <values>
+                <fullName>Always</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Never</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Occasionally</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Often</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sometimes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Installed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Obsolete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchased</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Registered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shipped</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ASSET.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ASSET.SERIAL_NUMBER</customTabListAdditionalFields>
