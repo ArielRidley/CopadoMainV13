@@ -4,5 +4,5 @@
         <members>Jacket_Size__c</members>
         <name>CustomObject</name>
     </types>
-    <version>46.0</version>
+    <version>47.0</version>
 </Package>
