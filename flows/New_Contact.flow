@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <description>Testing the functionality for translation workbench:
+
+The sky is blue</description>
     <dynamicChoiceSets>
         <name>accounts</name>
         <dataType>String</dataType>
@@ -51,6 +54,9 @@
     </processMetadataValues>
     <processType>Flow</processType>
     <screens>
+        <description>Testing the translation workbench feature here:
+
+The sky is blue</description>
         <name>Contact_Info</name>
         <label>Contact Info</label>
         <locationX>215</locationX>
