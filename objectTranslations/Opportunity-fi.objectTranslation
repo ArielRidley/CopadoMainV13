@@ -25,6 +25,14 @@
         <name>MainCompetitors__c</name>
     </fields>
     <fields>
+        <label><!-- Opportunity Clients --></label>
+        <name>Opportunity_Clients__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Deceased Owner --></label>
+        <name>Opportunity_Deceased_Owner__c</name>
+    </fields>
+    <fields>
         <label><!-- Order Number --></label>
         <name>OrderNumber__c</name>
     </fields>

@@ -100,6 +100,7 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
         <fullName>AccountId</fullName>
         <trackHistory>false</trackHistory>
@@ -139,6 +140,11 @@
     <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DigitalAssetStatus</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
     </fields>
     <fields>
         <fullName>Document_Size__c</fullName>
@@ -272,6 +278,21 @@
             </values>
             <values>
                 <fullName>Sometimes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Document_Size__c</picklist>
+            <values>
+                <fullName>Large</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Small</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

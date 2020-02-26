@@ -26,4 +26,5 @@
     <siteAdmin>ariel_uat@copado.com</siteAdmin>
     <siteType>ChatterNetwork</siteType>
     <subdomain>testcommunityuat-developer-edition</subdomain>
+    <urlPathPrefix>FirstTestingAR</urlPathPrefix>
 </CustomSite>

@@ -10,6 +10,7 @@
             <operator>equals</operator>
             <value>Out for Signature</value>
         </criteriaItems>
+        <language>en_US</language>
     </filter>
     <format>Summary</format>
     <groupingsDown>

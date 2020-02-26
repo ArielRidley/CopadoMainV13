@@ -13,6 +13,7 @@
             <operator>equals</operator>
             <value>SENT,VIEWED,SIGNED</value>
         </criteriaItems>
+        <language>en_US</language>
     </filter>
     <format>Matrix</format>
     <groupingsAcross>
