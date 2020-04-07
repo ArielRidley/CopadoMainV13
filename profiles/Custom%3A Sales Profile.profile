@@ -4980,10 +4980,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__validateOrg</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__viewGit</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
