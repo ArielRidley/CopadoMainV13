@@ -5865,10 +5865,6 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
-        <tab>copado__Scratch_Org_Definition__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>copado__Scratch_Org_Project_Template__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
