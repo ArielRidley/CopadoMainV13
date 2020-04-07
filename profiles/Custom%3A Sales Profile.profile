@@ -5128,10 +5128,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__MetadataSelector</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__NewPipeline</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
