@@ -186,10 +186,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DXPackageVersionHandler</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__DXTestOrgIntermediaryController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
