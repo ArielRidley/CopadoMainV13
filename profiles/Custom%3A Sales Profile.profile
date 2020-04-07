@@ -5052,10 +5052,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__StaticCodeAnalysisSettingsEdit</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__TestRunScratchOrg</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
