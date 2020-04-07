@@ -186,10 +186,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DXPackageArtifactHelper</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__DXPackageAsyncJobHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
