@@ -5228,10 +5228,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__AddTestClasses</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__ArtifactManageMetadata</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
