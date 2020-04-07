@@ -5865,10 +5865,6 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
-        <tab>copado__Permission_Set_Explorer</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>copado__Persona__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
