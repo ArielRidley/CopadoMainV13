@@ -5224,10 +5224,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ArtifactMetadata</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__ArtifactPackage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
