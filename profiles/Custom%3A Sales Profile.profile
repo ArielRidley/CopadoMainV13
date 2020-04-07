@@ -5052,10 +5052,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SetupWizardFinish</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__SetupWizardStart</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
