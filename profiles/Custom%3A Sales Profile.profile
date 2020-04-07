@@ -4984,10 +4984,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ViewExternalCISetting</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__ViewGitBackup</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
