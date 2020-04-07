@@ -5076,10 +5076,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__PromotionEdit</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__QuickCreateUserStories</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
