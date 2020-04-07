@@ -9946,11 +9946,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>copado__Static_Code_Analysis_Result__c.copado__CodeScan</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
         <recordType>copado__Static_Code_Analysis_Result__c.copado__PMD</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
