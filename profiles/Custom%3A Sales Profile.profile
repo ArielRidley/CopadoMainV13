@@ -4971,10 +4971,6 @@
         <apexPage>UnderConstruction</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
-    <pageAccesses>
-        <apexPage>copado__viewOrg</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Account.Account_Test_Record_Type</recordType>
