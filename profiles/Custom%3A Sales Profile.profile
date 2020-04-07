@@ -5128,10 +5128,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__PackageArtifactOrgDefinition</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__PageMessagesEnvironment</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
