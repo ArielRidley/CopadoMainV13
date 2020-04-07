@@ -5212,10 +5212,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__BranchManagement</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__BranchManagementDialog</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
