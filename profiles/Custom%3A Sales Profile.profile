@@ -5128,10 +5128,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__NewScratchOrgProjectTemplate</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__OrgApexTestResultsSummary</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
