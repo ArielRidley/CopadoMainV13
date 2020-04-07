@@ -5072,10 +5072,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ReleaseBranchSelection</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__ResolveConflicts</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
