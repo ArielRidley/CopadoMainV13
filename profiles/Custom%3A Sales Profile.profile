@@ -186,10 +186,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__AuthorizationWithoutSharing</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__BackupBatch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
