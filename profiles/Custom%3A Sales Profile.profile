@@ -5096,10 +5096,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__PipelineManagerDialog</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__PipelinePromotion</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
