@@ -5068,10 +5068,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ScratchOrgOpen</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__SeleniumGettingStartedPage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
