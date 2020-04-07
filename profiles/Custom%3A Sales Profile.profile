@@ -4996,10 +4996,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__UserStorySelectCommits</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__UserStorySelectedMetadata</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
