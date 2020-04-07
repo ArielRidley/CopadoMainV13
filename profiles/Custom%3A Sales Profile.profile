@@ -5096,10 +5096,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__PipelineTemplatesWizard</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>copado__PromoteBetatoReleased</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
