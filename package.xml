@@ -8,5 +8,10 @@
         <members>Account</members>
         <name>CustomObject</name>
     </types>
+    <types>
+        <members>Account.Account_Test_Record_Type</members>
+        <members>Account.Test_Record_Type</members>
+        <name>RecordType</name>
+    </types>
     <version>48.0</version>
 </Package>
