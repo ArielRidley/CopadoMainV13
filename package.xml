@@ -4,5 +4,11 @@
         <members>Lead.PartnerAccountId</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>Admin</members>
+        <members>Custom%3A Marketing Profile</members>
+        <members>MarketingProfile</members>
+        <name>Profile</name>
+    </types>
     <version>48.0</version>
 </Package>
