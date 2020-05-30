@@ -666,6 +666,10 @@
         <columns>CORE.USERS.ALIAS</columns>
         <filterScope>Mine</filterScope>
         <label>Test List View 1</label>
+        <sharedTo>
+            <allCustomerPortalUsers></allCustomerPortalUsers>
+            <allPartnerUsers></allPartnerUsers>
+        </sharedTo>
     </listViews>
     <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
     <recordTypeTrackHistory>false</recordTypeTrackHistory>
