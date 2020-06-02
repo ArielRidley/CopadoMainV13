@@ -5,8 +5,8 @@
         <name>CustomObject</name>
     </types>
     <types>
-        <members>Account.Test_List_View_1</members>
-        <name>ListView</name>
+        <members>Account.Test_Button</members>
+        <name>WebLink</name>
     </types>
     <version>48.0</version>
 </Package>
