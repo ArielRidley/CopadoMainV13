@@ -1042,6 +1042,19 @@
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <webLinks>
+        <fullName>AcctButton2</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>AcctButton2</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>https://www.salesforce.com/</url>
+    </webLinks>
+    <webLinks>
         <fullName>Billing</fullName>
         <availability>online</availability>
         <displayType>link</displayType>
