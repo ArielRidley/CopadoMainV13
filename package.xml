@@ -16,6 +16,8 @@
     </types>
     <types>
         <members>Account.Account_Test_Record_Type</members>
+        <members>Account.Test_2_Record_Type</members>
+        <members>Account.Testing_Record_Type</members>
         <name>RecordType</name>
     </types>
     <version>48.0</version>
