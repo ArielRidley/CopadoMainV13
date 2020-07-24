@@ -1352,6 +1352,16 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Test_Validation_Rule</fullName>
+        <active>true</active>
+        <description>Test</description>
+        <errorConditionFormula>AND(
+   NOT(ISBLANK(AccountNumber)),
+   NOT(ISNUMBER(AccountNumber))
+)</errorConditionFormula>
+        <errorMessage>Make sure value is a number</errorMessage>
+    </validationRules>
     <webLinks>
         <fullName>Billing</fullName>
         <availability>online</availability>
